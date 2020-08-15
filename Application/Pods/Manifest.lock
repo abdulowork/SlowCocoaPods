@@ -1,0 +1,35 @@
+PODS:
+  - MainScreen (0.0.1):
+    - SharedModels
+    - SharedServices
+  - PaymentScreen (0.0.1):
+    - SharedModels
+    - SharedServices
+  - SharedModels (0.0.1)
+  - SharedServices (0.0.1)
+
+DEPENDENCIES:
+  - MainScreen (from `../MainScreen`)
+  - PaymentScreen (from `../PaymentScreen`)
+  - SharedModels (from `..`)
+  - SharedServices (from `..`)
+
+EXTERNAL SOURCES:
+  MainScreen:
+    :path: "../MainScreen"
+  PaymentScreen:
+    :path: "../PaymentScreen"
+  SharedModels:
+    :path: ".."
+  SharedServices:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  MainScreen: a0a9764e7d4218f849c27560bd9bcccbe5e554fb
+  PaymentScreen: 334126adb23b60a85dcb667ca842e3e0e834cb03
+  SharedModels: 3098c79e72095ac7ba84b6b8f653277a6f49a5c2
+  SharedServices: c59061d8337242319dd173d0465ba173dbed2d4a
+
+PODFILE CHECKSUM: 1cda082bb11c33cde65dc1be2983370d7fa0d74a
+
+COCOAPODS: 1.9.3

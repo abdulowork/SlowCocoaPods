@@ -1,0 +1,6 @@
+framework module PaymentScreen {
+  umbrella header "PaymentScreen-umbrella.h"
+
+  export *
+  module * { export * }
+}

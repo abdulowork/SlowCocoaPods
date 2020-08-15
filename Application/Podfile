@@ -1,0 +1,13 @@
+target 'SlowCocoapods' do
+  use_frameworks!
+
+  # Models shared across screens
+  pod 'SharedModels', :path => '..'
+
+  # Services shared across screens
+  pod 'SharedServices', :path => '..'
+
+  # Screens
+  pod 'MainScreen', :path => '../MainScreen'
+  pod 'PaymentScreen', :path => '../PaymentScreen'
+end

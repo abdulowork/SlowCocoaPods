@@ -1,0 +1,30 @@
+{
+  "name": "MainScreen",
+  "module_name": "MainScreen",
+  "version": "0.0.1",
+  "license": "MIT",
+  "summary": "summary",
+  "homepage": "http://path/to/homepage",
+  "authors": {
+    "Apple": "some@mail.org"
+  },
+  "source": {
+    "git": "ssh://path/to/.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "source_files": "Internal/**/*.swift",
+  "dependencies": {
+    "SharedModels": [
+
+    ],
+    "SharedServices": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

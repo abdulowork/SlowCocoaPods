@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-SlowCocoapods/Pods-SlowCocoapods-frameworks.sh
+${BUILT_PRODUCTS_DIR}/MainScreen/MainScreen.framework
+${BUILT_PRODUCTS_DIR}/PaymentScreen/PaymentScreen.framework

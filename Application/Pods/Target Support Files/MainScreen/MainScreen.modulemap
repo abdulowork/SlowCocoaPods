@@ -1,0 +1,6 @@
+framework module MainScreen {
+  umbrella header "MainScreen-umbrella.h"
+
+  export *
+  module * { export * }
+}
